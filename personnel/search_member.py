@@ -10,7 +10,7 @@ def search_member(target_name):
     for i in family_members:
         if i["name"].upper() == target_name.upper():
             return i
-        return None
+    return None
     
 # ทดสอบ: python -m personnel.search_member
 if __name__ == "__main__":
