@@ -30,7 +30,7 @@ while True:
         else:
             print("Slave")
         print("add member success")
-
+        break
 # ทดสอบ: python -m personnel.add_member
 # if __name__ == "__main__":
 #     add_member("Vito", 20, 9, 500)
